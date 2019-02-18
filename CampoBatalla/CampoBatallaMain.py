@@ -2,6 +2,7 @@ import pygame
 from pygame.locals import *
 import random
 from CampoBatalla import Castillos
+from CampoBatalla import Personajes
 
 DIMENSIONES = (1000, 500)
 COLOR_TEXTO = (243, 255, 0)
@@ -30,6 +31,17 @@ class CampoBatallaMain():
         rec_CastilloEnemigo.topleft = (10, 10)
         image_CastilloEnemigo = pygame.transform.flip(image_CastilloEnemigo, True, False)
 
+        PersonajeAmigo = Personajes.Personaje().figuras()
+        PersonajeEnemigo = Personajes.Personaje().figuras()
+
+        image_PAmigo1 = pygame.transform.scale(pygame.image.load('Imagenes/'+PersonajeAmigo[0]), (50, 50))
+        image_PAmigo2 = pygame.transform.scale(pygame.image.load('Imagenes/'+PersonajeAmigo[1]), (50, 50))
+        image_PAmigo3 = pygame.transform.scale(pygame.image.load('Imagenes/'+PersonajeAmigo[2]), (50, 50))
+
+        image_PEnemigo1 = pygame.transform.scale(pygame.image.load('Imagenes/'+PersonajeEnemigo[0]), (50, 50))
+        image_PEnemigo2 = pygame.transform.scale(pygame.image.load('Imagenes/'+PersonajeEnemigo[1]), (50, 50))
+        image_PEnemigo3 = pygame.transform.scale(pygame.image.load('Imagenes/'+PersonajeEnemigo[2]), (50, 50))
+
         image_Fondo = pygame.transform.scale(pygame.image.load('Imagenes/'+FONDOS[random.randrange(5)]), (1000, 500))
 
         while jugando:
@@ -37,9 +49,13 @@ class CampoBatallaMain():
             ventana.blit(image_Fondo, (0, 0))
             ventana.blit(image_CastilloAmigo, (800, 40))
             ventana.blit(image_CastilloEnemigo, (-100, 40))
-            '''ventana.blit(imagen_personaje1, (50, 50))
-            ventana.blit(imagen_personaje2, (100, 50))
-            ventana.blit(imagen_personaje3, (150, 50))'''
+            ventana.blit(image_PAmigo1, (200, 50))
+            ventana.blit(image_PAmigo2, (260, 50))
+            ventana.blit(image_PAmigo3, (320, 50))
+
+            ventana.blit(image_PEnemigo1, (650, 50))
+            ventana.blit(image_PEnemigo2, (710, 50))
+            ventana.blit(image_PEnemigo3, (770, 50))
 
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
