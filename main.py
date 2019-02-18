@@ -1,11 +1,10 @@
-from CampoBatalla import CampoBatalla
+from CampoBatalla import CampoBatallaMain
 
 
 def main():
 
-    inicia = CampoBatalla()
-
-    inicia.castillos()
+    inicia = CampoBatallaMain.CampoBatallaMain()
+    inicia.main()
 
 
 if __name__ == "__main__":
