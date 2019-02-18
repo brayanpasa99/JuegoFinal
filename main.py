@@ -4,7 +4,7 @@ from CampoBatalla import CampoBatallaMain
 def main():
 
     inicia = CampoBatallaMain.CampoBatallaMain()
-    inicia.main()
+    inicia.main('Orco1')
 
 
 if __name__ == "__main__":

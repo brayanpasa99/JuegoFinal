@@ -3,6 +3,7 @@ from pygame.locals import *
 import random
 from CampoBatalla import Castillos
 from CampoBatalla import Personajes
+from PersonajesC.Orco import Orco1
 
 DIMENSIONES = (1000, 500)
 COLOR_TEXTO = (243, 255, 0)
@@ -10,11 +11,12 @@ FONDOS = ['Fondo1.png', 'Fondo2.png', 'Fondo3.jpg', 'Fondo4.jpg', 'Fondo5.png']
 
 class CampoBatallaMain():
 
-    def main(self):
+    def main(self, jugador1):
 
         pygame.init()
 
         jugando = True
+        jugador1 = 'Orco1'
 
         ventana = pygame.display.set_mode(DIMENSIONES)
         pygame.display.set_caption("Castillos")
@@ -22,11 +24,11 @@ class CampoBatallaMain():
         CastilloAmigo = Castillos.Castillo()
         CastilloEnemigo = Castillos.Castillo()
 
-        image_CastilloAmigo = pygame.transform.scale(pygame.image.load('Imagenes/'+CastilloAmigo.castilloInicial()), (300, 400))
+        image_CastilloAmigo = pygame.transform.scale(pygame.image.load('Imagenes/Castillos/'+CastilloAmigo.castilloInicial()), (300, 400))
         rec_CastilloAmigo = image_CastilloAmigo.get_rect()
         rec_CastilloAmigo.topleft = (10, 10)
 
-        image_CastilloEnemigo = pygame.transform.scale(pygame.image.load('Imagenes/'+CastilloEnemigo.castilloInicial()), (300, 400))
+        image_CastilloEnemigo = pygame.transform.scale(pygame.image.load('Imagenes/Castillos/'+CastilloEnemigo.castilloInicial()), (300, 400))
         rec_CastilloEnemigo = image_CastilloEnemigo.get_rect()
         rec_CastilloEnemigo.topleft = (10, 10)
         image_CastilloEnemigo = pygame.transform.flip(image_CastilloEnemigo, True, False)
@@ -34,7 +36,7 @@ class CampoBatallaMain():
         PersonajeAmigo = Personajes.Personaje().figuras()
         PersonajeEnemigo = Personajes.Personaje().figuras()
 
-        image_PAmigo1 = pygame.transform.scale(pygame.image.load('Imagenes/'+PersonajeAmigo[0]), (50, 50))
+        image_PAmigo1 = pygame.transform.scale(pygame.image.load(Orco1().entregaSprites(jugador1)['Ataque']['Ataque1']), (50, 50))
         image_PAmigo2 = pygame.transform.scale(pygame.image.load('Imagenes/'+PersonajeAmigo[1]), (50, 50))
         image_PAmigo3 = pygame.transform.scale(pygame.image.load('Imagenes/'+PersonajeAmigo[2]), (50, 50))
 
@@ -42,7 +44,7 @@ class CampoBatallaMain():
         image_PEnemigo2 = pygame.transform.scale(pygame.image.load('Imagenes/'+PersonajeEnemigo[1]), (50, 50))
         image_PEnemigo3 = pygame.transform.scale(pygame.image.load('Imagenes/'+PersonajeEnemigo[2]), (50, 50))
 
-        image_Fondo = pygame.transform.scale(pygame.image.load('Imagenes/'+FONDOS[random.randrange(5)]), (1000, 500))
+        image_Fondo = pygame.transform.scale(pygame.image.load('Imagenes/Fondos/'+FONDOS[random.randrange(5)]), (1000, 500))
 
         while jugando:
 

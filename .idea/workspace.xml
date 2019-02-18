@@ -2,37 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6a5689b-fcfc-428c-86eb-ea67f642a4cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Imagenes/Orcos/Ataque/Ataque2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagenes/Orcos/Ataque/Ataque3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagenes/Orcos/Ataque/Ataque4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagenes/Orcos/Ataque/Ataque5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagenes/Orcos/Ataque/Ataque6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagenes/Orcos/Ataque/Ataque7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagenes/Orcos/Orco1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/CastilloBlanco.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Castillos/CastilloBlanco.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/CastilloBlanco2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Castillos/CastilloBlanco2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/CastilloBlanco3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Castillos/CastilloBlanco3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/CastilloRojo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Castillos/CastilloRojo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/CastilloRojo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Castillos/CastilloRojo2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/CastilloRojo3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Castillos/CastilloRojo3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/CastilloVerde.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Castillos/CastilloVerde.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/CastilloVerde2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Castillos/CastilloVerde2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/CastilloVerde3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Castillos/CastilloVerde3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/Elfo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Elfos/Elfo1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/Elfo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Elfos/Elfo2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/Elfo3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Elfos/Elfo3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/Fondo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Fondos/Fondo1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/Fondo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Fondos/Fondo2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/Fondo3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Fondos/Fondo3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/Fondo4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Fondos/Fondo4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/Fondo5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Fondos/Fondo5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/Guerrero1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Guerreros/Guerrero1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/Guerrero2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Guerreros/Guerrero2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/Guerrero3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Guerreros/Guerrero3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/Orco1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Orcos/Ataque/Ataque1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/Orco2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Orcos/Orco2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagenes/Orco3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Orcos/Orco3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CampoBatalla/CampoBatallaMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/CampoBatalla/CampoBatallaMain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CampoBatalla/Personajes.py" beforeDir="false" afterPath="$PROJECT_DIR$/CampoBatalla/Personajes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Personajes/Orco.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonajesC/Orco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Personajes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonajesC/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CampoBatalla/CampoBatallaMain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="81" selection-start-line="24" selection-start-column="81" selection-end-line="24" selection-end-column="81" />
+            <state relative-caret-position="210">
+              <caret line="38" column="118" selection-start-line="38" selection-start-column="118" selection-end-line="38" selection-end-column="118" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -57,17 +32,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CampoBatalla/Personajes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="150">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Personajes/Orco.py">
+        <entry file="file://$PROJECT_DIR$/PersonajesC/Orco.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+            <state relative-caret-position="300">
+              <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -87,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="90">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -108,6 +83,8 @@
       <find>CastilloVerde</find>
       <find>Castillo1</find>
       <find>Castillo2</find>
+      <find>Imagenes/Orcos/</find>
+      <find>Orco1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -119,11 +96,14 @@
         <option value="$PROJECT_DIR$/Batallas.py" />
         <option value="$PROJECT_DIR$/Batalla.py" />
         <option value="$PROJECT_DIR$/CampoBatalla.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/CampoBatalla/Castillos.py" />
-        <option value="$PROJECT_DIR$/CampoBatalla/Personajes.py" />
-        <option value="$PROJECT_DIR$/CampoBatalla/CampoBatallaMain.py" />
         <option value="$PROJECT_DIR$/Personajes/Orco.py" />
+        <option value="$PROJECT_DIR$/CampoBatalla/Personajes.py" />
+        <option value="$PROJECT_DIR$/Personajes/Orco1.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/PersonajesC/Orco1.py" />
+        <option value="$PROJECT_DIR$/CampoBatalla/CampoBatallaMain.py" />
+        <option value="$PROJECT_DIR$/PersonajesC/Orco.py" />
       </list>
     </option>
   </component>
@@ -153,25 +133,7 @@
             <path>
               <item name="JuegoFinal" type="b2602c69:ProjectViewProjectNode" />
               <item name="JuegoFinal" type="462c0819:PsiDirectoryNode" />
-              <item name="Imagenes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JuegoFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JuegoFinal" type="462c0819:PsiDirectoryNode" />
-              <item name="Imagenes" type="462c0819:PsiDirectoryNode" />
-              <item name="Orcos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JuegoFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JuegoFinal" type="462c0819:PsiDirectoryNode" />
-              <item name="Imagenes" type="462c0819:PsiDirectoryNode" />
-              <item name="Orcos" type="462c0819:PsiDirectoryNode" />
-              <item name="Caminar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JuegoFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JuegoFinal" type="462c0819:PsiDirectoryNode" />
-              <item name="Personajes" type="462c0819:PsiDirectoryNode" />
+              <item name="PersonajesC" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,11 +148,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Imagenes/Orcos/Orco1" />
       <recent name="$PROJECT_DIR$/Imagenes/Orcos/Ataque" />
       <recent name="$PROJECT_DIR$/Imagenes/Orcos" />
       <recent name="$PROJECT_DIR$/Imagenes/Guerreros" />
       <recent name="$PROJECT_DIR$/Imagenes/Fondos" />
-      <recent name="$PROJECT_DIR$/Imagenes/Elfos" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Imagenes/Orcos/Caminar" />
@@ -267,12 +229,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2460815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2460815" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32866043" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32866043" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32866043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -326,13 +289,6 @@
     <entry file="file://$PROJECT_DIR$/Imagenes/Fondo4.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CampoBatalla/Castillos.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -340,27 +296,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CampoBatalla/Personajes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CampoBatalla/CampoBatallaMain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="81" selection-start-line="24" selection-start-column="81" selection-end-line="24" selection-end-column="81" />
+        <state relative-caret-position="210">
+          <caret line="38" column="118" selection-start-line="38" selection-start-column="118" selection-end-line="38" selection-end-column="118" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CampoBatalla/Personajes.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Personajes/Orco.py">
+    <entry file="file://$PROJECT_DIR$/PersonajesC/Orco.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        <state relative-caret-position="300">
+          <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
