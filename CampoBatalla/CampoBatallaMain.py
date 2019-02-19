@@ -3,7 +3,8 @@ from pygame.locals import *
 import random
 from CampoBatalla import Castillos
 from CampoBatalla import Personajes
-from PersonajesC.Orco import Orco1
+from PersonajesC.Elfo import Elfo
+from PersonajesC.Orco import Orco
 
 DIMENSIONES = (1000, 500)
 COLOR_TEXTO = (243, 255, 0)
@@ -16,7 +17,14 @@ class CampoBatallaMain():
         pygame.init()
 
         jugando = True
-        jugador1 = 'Orco1'
+        _usaSprites = None
+
+        if jugador1 == 'Orco':
+           _usaSprites = Orco().entregaSprites()
+        #elif jugador1 == 'Elfo':
+            #_usaSprites = Elfo().entregaSprites()
+        #elif jugador1 == 'Guerrero':
+            #_usaSprites = Guerrero().entregaSprites()
 
         ventana = pygame.display.set_mode(DIMENSIONES)
         pygame.display.set_caption("Castillos")
@@ -36,9 +44,9 @@ class CampoBatallaMain():
         PersonajeAmigo = Personajes.Personaje().figuras()
         PersonajeEnemigo = Personajes.Personaje().figuras()
 
-        image_PAmigo1 = pygame.transform.scale(pygame.image.load(Orco1().entregaSprites(jugador1)['Ataque']['Ataque1']), (50, 50))
-        image_PAmigo2 = pygame.transform.scale(pygame.image.load('Imagenes/'+PersonajeAmigo[1]), (50, 50))
-        image_PAmigo3 = pygame.transform.scale(pygame.image.load('Imagenes/'+PersonajeAmigo[2]), (50, 50))
+        image_PAmigo1 = pygame.transform.scale(pygame.image.load(_usaSprites[jugador1+'1']['Ataque']['Ataque1']), (50, 50))
+        image_PAmigo2 = pygame.transform.scale(pygame.image.load(_usaSprites[jugador1+'2']['Ataque']['Ataque1']), (50, 50))
+        image_PAmigo3 = pygame.transform.scale(pygame.image.load(_usaSprites[jugador1+'3']['Ataque']['Ataque1']), (50, 50))
 
         image_PEnemigo1 = pygame.transform.scale(pygame.image.load('Imagenes/'+PersonajeEnemigo[0]), (50, 50))
         image_PEnemigo2 = pygame.transform.scale(pygame.image.load('Imagenes/'+PersonajeEnemigo[1]), (50, 50))

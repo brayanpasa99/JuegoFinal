@@ -1,53 +1,32 @@
 import pygame
 from pygame.locals import *
 
-class Orco(pygame.sprite.Sprite):
+class OrcoSprites(pygame.sprite.Sprite):
 
-    _imagenes = None
-
-    def __init__(self):
-        pygame.sprite.Sprite.__init__(self)
-        self._imagenes = {'Orco1': {'Ataque': {'Ataque1': 'Imagenes/Orcos/Orco1/Ataque/Ataque1.png', 'Ataque2': 'Imagenes/Orcos/Orco1/Ataque/Ataque2.png',
-                          'Ataque3': 'Imagenes/Orcos/Orco1/Ataque/Ataque3.png', 'Ataque4': 'Imagenes/Orcos/Orco1/Ataque/Ataque4.png',
-                          'Ataque5': 'Imagenes/Orcos/Orco1/Ataque/Ataque5.png', 'Ataque6': 'Imagenes/Orcos/Orco1/Ataque/Ataque6.png',
-                          'Ataque7': 'Imagenes/Orcos/Orco1/Ataque/Ataque7.png'}, 'Muerte':
-                         {'Muerte1': 'Imagenes/Orcos/Orco1/Muerte/Muerte1.png', 'Muerte2': 'Imagenes/Orcos/Orco1/Muerte/Muerte2.png',
-                          'Muerte3': 'Imagenes/Orcos/Orco1/Muerte/Muerte3.png', 'Muerte4': 'Imagenes/Orcos/Orco1/Muerte/Muerte4.png',
-                          'Muerte5': 'Imagenes/Orcos/Orco1/Muerte/Muerte5.png', 'Muerte6': 'Imagenes/Orcos/Orco1/Muerte/Muerte6.png',
-                          'Muerte7': 'Imagenes/Orcos/Orco1/Muerte/Muerte7.png'}, 'Caminar':
-            {'Caminar1': 'Imagenes/Orcos/Orco1/Caminar/Caminar1.png', 'Caminar2': 'Imagenes/Orcos/Orco1/Caminar/Caminar2.png',
-             'Caminar3': 'Imagenes/Orcos/Orco1/Caminar/Caminar3.png', 'Caminar4': 'Imagenes/Orcos/Orco1/Caminar/Caminar4.png',
-             'Caminar5': 'Imagenes/Orcos/Orco1/Caminar/Caminar5.png', 'Caminar6': 'Imagenes/Orcos/Orco1/Caminar/Caminar6.png',
-             'Caminar7': 'Imagenes/Orcos/Orco1/Caminar/Caminar7.png'}},
-
-                          'Orco2': {'Ataque': {'Ataque1': 'Imagenes/Orcos/Orco2/Ataque/Ataque1.png', 'Ataque2': 'Imagenes/Orcos/Orco2/Ataque/Ataque2.png',
-                          'Ataque3': 'Imagenes/Orcos/Orco2/Ataque/Ataque3.png', 'Ataque4': 'Imagenes/Orcos/Orco2/Ataque/Ataque4.png',
-                          'Ataque5': 'Imagenes/Orcos/Orco2/Ataque/Ataque5.png', 'Ataque6': 'Imagenes/Orcos/Orco2/Ataque/Ataque6.png',
-                          'Ataque7': 'Imagenes/Orcos/Orco2/Ataque/Ataque7.png'}, 'Muerte':
-                         {'Muerte1': 'Imagenes/Orcos/Orco2/Muerte/Muerte1.png', 'Muerte2': 'Imagenes/Orcos/Orco2/Muerte/Muerte2.png',
-                          'Muerte3': 'Imagenes/Orcos/Orco2/Muerte/Muerte3.png', 'Muerte4': 'Imagenes/Orcos/Orco2/Muerte/Muerte4.png',
-                          'Muerte5': 'Imagenes/Orcos/Orco2/Muerte/Muerte5.png', 'Muerte6': 'Imagenes/Orcos/Orco2/Muerte/Muerte6.png',
-                          'Muerte7': 'Imagenes/Orcos/Orco2/Muerte/Muerte7.png'}, 'Caminar':
-            {'Caminar1': 'Imagenes/Orcos/Orco2/Caminar/Caminar1.png', 'Caminar2': 'Imagenes/Orcos/Orco2/Caminar/Caminar2.png',
-             'Caminar3': 'Imagenes/Orcos/Orco2/Caminar/Caminar3.png', 'Caminar4': 'Imagenes/Orcos/Orco2/Caminar/Caminar4.png',
-             'Caminar5': 'Imagenes/Orcos/Orco2/Caminar/Caminar5.png', 'Caminar6': 'Imagenes/Orcos/Orco2/Caminar/Caminar6.png',
-             'Caminar7': 'Imagenes/Orcos/Orco2/Caminar/Caminar7.png'}},
+    def __init__(self, dirImage):
+        self.image = pygame.transform.scale(pygame.image.load(dirImage), (50, 50))
+        self.rect = self.image.get_rect()
 
 
-                          'Orco3': {'Ataque': {'Ataque1': 'Imagenes/Orcos/Orco3/Ataque/Ataque1.png', 'Ataque2': 'Imagenes/Orcos/Orco3/Ataque/Ataque2.png',
-                          'Ataque3': 'Imagenes/Orcos/Orco3/Ataque/Ataque3.png', 'Ataque4': 'Imagenes/Orcos/Orco3/Ataque/Ataque4.png',
-                          'Ataque5': 'Imagenes/Orcos/Orco3/Ataque/Ataque5.png', 'Ataque6': 'Imagenes/Orcos/Orco3/Ataque/Ataque6.png',
-                          'Ataque7': 'Imagenes/Orcos/Orco3/Ataque/Ataque7.png'}, 'Muerte':
-                         {'Muerte1': 'Imagenes/Orcos/Orco3/Muerte/Muerte1.png', 'Muerte2': 'Imagenes/Orcos/Orco3/Muerte/Muerte2.png',
-                          'Muerte3': 'Imagenes/Orcos/Orco3/Muerte/Muerte3.png', 'Muerte4': 'Imagenes/Orcos/Orco3/Muerte/Muerte4.png',
-                          'Muerte5': 'Imagenes/Orcos/Orco3/Muerte/Muerte5.png', 'Muerte6': 'Imagenes/Orcos/Orco3/Muerte/Muerte6.png',
-                          'Muerte7': 'Imagenes/Orcos/Orco3/Muerte/Muerte7.png'}, 'Caminar':
-            {'Caminar1': 'Imagenes/Orcos/Orco3/Caminar/Caminar1.png', 'Caminar2': 'Imagenes/Orcos/Orco3/Caminar/Caminar2.png',
-             'Caminar3': 'Imagenes/Orcos/Orco3/Caminar/Caminar3.png', 'Caminar4': 'Imagenes/Orcos/Orco3/Caminar/Caminar4.png',
-             'Caminar5': 'Imagenes/Orcos/Orco3/Caminar/Caminar5.png', 'Caminar6': 'Imagenes/Orcos/Orco3/Caminar/Caminar6.png',
-             'Caminar7': 'Imagenes/Orcos/Orco3/Caminar/Caminar7.png'}}}
+def ObtieneSprites():
+    _TodosSprites = []
+    for i in range(0, 7):
+        imagen = '../Imagenes/Orcos/Orco1/Ataque/Ataque'+str(i+1)+'.png'
+        _TodosSprites.append(OrcoSprites(imagen))
+       
+    ventana = pygame.display.set_mode((500, 500))
+    pygame.display.set_caption("Castillos")
+
+    while 1:
+        for i in range(0, 7):
+            ventana.blit(_TodosSprites[i].image, ((i*i*i)+50, 50))
 
 
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                exit()
 
-    def entregaSprites(self, personaje):
-        return self._imagenes[personaje]
+        pygame.display.update()
+
+if __name__ == '__main__':
+    ObtieneSprites()
