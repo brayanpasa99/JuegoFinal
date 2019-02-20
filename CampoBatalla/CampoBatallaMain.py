@@ -1,10 +1,8 @@
 import pygame
-from pygame.locals import *
 import random
+
 from CampoBatalla import Castillos
-from CampoBatalla import Personajes
-from PersonajesC import OrcoConcreto1
-from PersonajesC.Elfo import Elfo
+from PersonajesC import OrcoConcreto1, ElfoConcreto1, GuerreroConcreto1
 
 DIMENSIONES = (1000, 500)
 COLOR_TEXTO = (243, 255, 0)
@@ -22,7 +20,9 @@ class CampoBatallaMain():
         _UsaSpritesMuere = None
 
         if jugador1 == 'Orco':
-           _usaSpritesAtaca = OrcoConcreto1.OrcoConcreto1().getSpritesAtacar()
+            _usaSpritesAtaca = OrcoConcreto1.OrcoConcreto1().SpritesAtacar()
+            _usaSpritesAtaca = ElfoConcreto1.ElfoConcreto1().SpritesAtacar()
+            _usaSpritesAtaca = GuerreroConcreto1.GuerreroConcreto1().SpritesAtacar()
 
         ventana = pygame.display.set_mode(DIMENSIONES)
         pygame.display.set_caption("Castillos")
@@ -38,9 +38,6 @@ class CampoBatallaMain():
         rec_CastilloEnemigo = image_CastilloEnemigo.get_rect()
         rec_CastilloEnemigo.topleft = (10, 10)
         image_CastilloEnemigo = pygame.transform.flip(image_CastilloEnemigo, True, False)
-
-        PersonajeAmigo = Personajes.Personaje().figuras()
-        PersonajeEnemigo = Personajes.Personaje().figuras()
 
         image_PAmigo1 = _usaSpritesAtaca[0].image
         image_PAmigo2 = _usaSpritesAtaca[0].image
