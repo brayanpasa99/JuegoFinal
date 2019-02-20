@@ -55,11 +55,11 @@ class CampoBatallaMain():
             ventana.blit(image_CastilloAmigo, (800, 40))
             ventana.blit(image_CastilloEnemigo, (-100, 40))
             ventana.blit(image_PAmigo1, (200, 50))
-            ventana.blit(image_PAmigo2, (260, 50))
-            ventana.blit(image_PAmigo3, (320, 50))
+            ventana.blit(image_PAmigo2, (280, 50))
+            ventana.blit(image_PAmigo3, (360, 50))
 
-            ventana.blit(image_PEnemigo1, (650, 50))
-            ventana.blit(image_PEnemigo2, (710, 50))
+            ventana.blit(image_PEnemigo1, (610, 50))
+            ventana.blit(image_PEnemigo2, (690, 50))
             ventana.blit(image_PEnemigo3, (770, 50))
 
             for event in pygame.event.get():
