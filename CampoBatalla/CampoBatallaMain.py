@@ -1,5 +1,7 @@
 import pygame
 import random
+from random import randrange
+from pygame.locals import *
 
 from CampoBatalla import Castillos
 from Jugador import Jugador
@@ -52,7 +54,13 @@ class CampoBatallaMain():
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     exit()
-            pygame.display.update()
+
+                if pygame.key.get_pressed()[K_a]:
+                    #ventana.blit(self._avatares[0], (randrange(0, 400), randrange(0, 400)))
+                    ventana.blit(self._avatares[0], (100, 100))
+
+
+            pygame.display.flip()
 
     def creaJugador(self, raza, vidaCastillo, cantOro):
         self._jugadores.append(Jugador(vidaCastillo, cantOro, raza))
