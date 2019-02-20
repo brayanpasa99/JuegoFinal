@@ -3,8 +3,8 @@ from pygame.locals import *
 import random
 from CampoBatalla import Castillos
 from CampoBatalla import Personajes
+from PersonajesC import OrcoConcreto1
 from PersonajesC.Elfo import Elfo
-from PersonajesC.Orco import Orco
 
 DIMENSIONES = (1000, 500)
 COLOR_TEXTO = (243, 255, 0)
@@ -17,14 +17,12 @@ class CampoBatallaMain():
         pygame.init()
 
         jugando = True
-        _usaSprites = None
+        _usaSpritesAtaca = None
+        _usaSpritesCamina = None
+        _UsaSpritesMuere = None
 
         if jugador1 == 'Orco':
-           _usaSprites = Orco().entregaSprites()
-        #elif jugador1 == 'Elfo':
-            #_usaSprites = Elfo().entregaSprites()
-        #elif jugador1 == 'Guerrero':
-            #_usaSprites = Guerrero().entregaSprites()
+           _usaSpritesAtaca = OrcoConcreto1.OrcoConcreto1().getSpritesAtacar()
 
         ventana = pygame.display.set_mode(DIMENSIONES)
         pygame.display.set_caption("Castillos")
@@ -44,13 +42,13 @@ class CampoBatallaMain():
         PersonajeAmigo = Personajes.Personaje().figuras()
         PersonajeEnemigo = Personajes.Personaje().figuras()
 
-        image_PAmigo1 = pygame.transform.scale(pygame.image.load(_usaSprites[jugador1+'1']['Ataque']['Ataque1']), (50, 50))
-        image_PAmigo2 = pygame.transform.scale(pygame.image.load(_usaSprites[jugador1+'2']['Ataque']['Ataque1']), (50, 50))
-        image_PAmigo3 = pygame.transform.scale(pygame.image.load(_usaSprites[jugador1+'3']['Ataque']['Ataque1']), (50, 50))
+        image_PAmigo1 = _usaSpritesAtaca[0].image
+        image_PAmigo2 = _usaSpritesAtaca[0].image
+        image_PAmigo3 = _usaSpritesAtaca[0].image
 
-        image_PEnemigo1 = pygame.transform.scale(pygame.image.load('Imagenes/'+PersonajeEnemigo[0]), (50, 50))
-        image_PEnemigo2 = pygame.transform.scale(pygame.image.load('Imagenes/'+PersonajeEnemigo[1]), (50, 50))
-        image_PEnemigo3 = pygame.transform.scale(pygame.image.load('Imagenes/'+PersonajeEnemigo[2]), (50, 50))
+        image_PEnemigo1 = _usaSpritesAtaca[0].image
+        image_PEnemigo2 = _usaSpritesAtaca[0].image
+        image_PEnemigo3 = _usaSpritesAtaca[0].image
 
         image_Fondo = pygame.transform.scale(pygame.image.load('Imagenes/Fondos/'+FONDOS[random.randrange(5)]), (1000, 500))
 
