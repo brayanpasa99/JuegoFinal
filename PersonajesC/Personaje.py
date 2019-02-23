@@ -19,3 +19,10 @@ class Personaje():
     def SpritesMuerte(self):
         pass
 
+    @abc.abstractmethod
+    def update(self):
+        pass
+
+    @abc.abstractmethod
+    def dibujar(self):
+        pass

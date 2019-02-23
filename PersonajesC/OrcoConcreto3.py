@@ -25,5 +25,10 @@ class OrcoConcreto3(Personaje):
         _SpritesMuerte = []
         for i in range(0, 7):
             imagen = 'Imagenes/Orcos/Orco3/Muerte/Muerte' + str(i + 1) + '.png'
-            _SpritesMuerte.append(PersonajesSprites.PersonajesSprites(imagen))
-            return _SpritesMuerte
+
+    def update(self):
+        pass
+
+    def dibujar(self):
+        pass
+

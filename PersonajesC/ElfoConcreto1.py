@@ -27,3 +27,9 @@ class ElfoConcreto1(Personaje):
             imagen = 'Imagenes/Elfos/Elfo1/Muerte/Muerte' + str(i + 1) + '.png'
             _SpritesMuerte.append(PersonajesSprites.PersonajesSprites(imagen))
             return _SpritesMuerte
+
+    def update(self):
+        pass
+
+    def dibujar(self):
+        pass

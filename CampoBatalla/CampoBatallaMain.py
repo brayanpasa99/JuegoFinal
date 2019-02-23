@@ -1,12 +1,10 @@
 import pygame
 import random
-from random import randrange
-from pygame.locals import *
-
 from CampoBatalla import Castillos
 from Jugador import Jugador
 from PersonajesC import OrcoConcreto1, ElfoConcreto1, GuerreroConcreto1, OrcoConcreto2, OrcoConcreto3, ElfoConcreto2, \
     ElfoConcreto3, GuerreroConcreto2, GuerreroConcreto3
+from pygame.locals import *
 
 DIMENSIONES = (1000, 500)
 COLOR_TEXTO = (243, 255, 0)
@@ -55,10 +53,7 @@ class CampoBatallaMain():
                 if event.type == pygame.QUIT:
                     exit()
 
-                if pygame.key.get_pressed()[K_a]:
-                    #ventana.blit(self._avatares[0], (randrange(0, 400), randrange(0, 400)))
-                    ventana.blit(self._avatares[0], (100, 100))
-
+            OrcoConcreto1.OrcoConcreto1().update(ventana, self._avatares[0])
 
             pygame.display.flip()
 

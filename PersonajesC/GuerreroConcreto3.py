@@ -27,3 +27,9 @@ class GuerreroConcreto3(Personaje):
             imagen = 'Imagenes/Guerreros/Guerrero3/Muerte/Muerte' + str(i + 1) + '.png'
             _SpritesMuerte.append(PersonajesSprites.PersonajesSprites(imagen))
             return _SpritesMuerte
+
+    def update(self):
+        pass
+
+    def dibujar(self):
+        pass
