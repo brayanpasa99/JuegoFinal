@@ -1,8 +1,12 @@
 from AbstractFactory.ElfoAbstracto import ElfoAbstracto
 from PersonajesSprites import PersonajesSprites
+import pygame
+from pygame.locals import *
 
 
 class Elfo3(ElfoAbstracto):
+
+    rect = (0, 0)
 
     def Atacar(self):
         SpritesAtacar = []
@@ -27,3 +31,11 @@ class Elfo3(ElfoAbstracto):
             SpritesMuerte.append(PersonajesSprites(imagen))
 
         return SpritesMuerte
+
+    def update(self):
+        teclas = pygame.key.get_pressed()
+
+
+    def dibujar(self, ventana):
+        pass
+

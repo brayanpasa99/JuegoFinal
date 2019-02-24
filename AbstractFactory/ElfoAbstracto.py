@@ -15,3 +15,11 @@ class ElfoAbstracto():
     @abc.abstractmethod
     def Muerte(self):
         pass
+
+    @abc.abstractmethod
+    def dibujar(self, ventana):
+        pass
+
+    @abc.abstractmethod
+    def update(self):
+        pass

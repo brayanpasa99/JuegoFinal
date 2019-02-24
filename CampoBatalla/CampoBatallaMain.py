@@ -5,8 +5,7 @@ from AbstractFactory.Elfo import Elfo
 from AbstractFactory.Guerrero import Guerrero
 from AbstractFactory.Orco import Orco
 from CampoBatalla import Castillos
-from Jugador import Jugador
-from pygame.locals import *
+from Builder.Jugador import Jugador
 
 DIMENSIONES = (1000, 500)
 COLOR_TEXTO = (243, 255, 0)
@@ -38,6 +37,8 @@ class CampoBatallaMain():
 
         image_Fondo = pygame.transform.scale(pygame.image.load('Imagenes/Fondos/'+FONDOS[random.randrange(5)]), (1000, 500))
 
+        teclas = pygame.key.get_pressed()
+
         while True:
 
             ventana.blit(image_Fondo, (0, 0))
@@ -54,6 +55,16 @@ class CampoBatallaMain():
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     exit()
+
+
+            Elfo().Personaje1().dibujar(ventana)
+
+            Elfo().Personaje1().update()
+
+            Elfo().Personaje2().update()
+            Elfo().Personaje2().dibujar(ventana)
+            Elfo().Personaje3().update()
+            Elfo().Personaje3().dibujar(ventana)
 
             pygame.display.flip()
 

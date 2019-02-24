@@ -1,15 +1,38 @@
-from random import choice, randrange
-
-from CampoBatalla import CampoBatallaMain
+from CampoBatalla.CampoBatallaMain import CampoBatallaMain
+from Builder.Jugador import Jugador
 
 
 def main():
 
-    inicia = CampoBatallaMain.CampoBatallaMain()
-    inicia.creaJugador(choice(['Orco', 'Elfo', 'Guerrero']), randrange(1000, 5000), range(100, 1000))
-    inicia.creaJugador(choice(['Orco', 'Elfo', 'Guerrero']), randrange(1000, 5000), range(100, 1000))
-    inicia.entregaAvatar()
-    inicia.main()
+    inicia = CampoBatallaMain()
+
+    print "Menu:"
+    print "1. Jugar"
+    print "2. Salir"
+
+    opcion = input()
+
+    if opcion == 1:
+
+        print "Selecciona la raza del jugador 1:"
+        print "1. Elfos"
+        print "2. Orcos"
+        print "3. Guerreros"
+
+        razaJugador1 = raw_input()
+        jugador1 = Jugador(razaJugador1)
+
+        print "Jugador 1 creado con la raza: "+razaJugador1
+
+        print "Selecciona la raza del jugador 2:"
+        print "1. Elfos"
+        print "2. Orcos"
+        print "3. Guerreros"
+
+        razaJugador2 = raw_input()
+        jugador2 = Jugador(razaJugador2)
+
+        print "Jugador 2 creado con la raza: "+razaJugador2
 
 
 if __name__ == "__main__":
