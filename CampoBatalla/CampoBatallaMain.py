@@ -27,7 +27,6 @@ class CampoBatallaMain():
         image_Fondo = pygame.transform.scale(pygame.image.load('Imagenes/Fondos/'+FONDOS[random.randrange(5)]), (1000, 500))
 
         teclas = pygame.key.get_pressed()
-        dibuja = False
 
         while True:
 
@@ -47,8 +46,6 @@ class CampoBatallaMain():
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     exit()
-
-            jugadores[0].dibujar(ventana)
 
             pygame.display.flip()
 
