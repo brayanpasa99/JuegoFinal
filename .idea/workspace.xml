@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6a5689b-fcfc-428c-86eb-ea67f642a4cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractFactory/Elfo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactory/Elfo1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractFactory/Elfo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactory/Elfo2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractFactory/Elfo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactory/Elfo3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AbstractFactory/ElfoAbstracto.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactory/ElfoAbstracto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CampoBatalla/CampoBatallaMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/CampoBatalla/CampoBatallaMain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jugador.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jugador.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="c6a5689b-fcfc-428c-86eb-ea67f642a4cd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +13,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CampoBatalla/CampoBatallaMain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-780">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="-795">
+              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -56,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="346">
-              <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+              <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -65,7 +56,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Jugador.py">
+        <entry file="file://$PROJECT_DIR$/Builder/Jugador.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
@@ -240,18 +231,12 @@
             <path>
               <item name="JuegoFinal" type="b2602c69:ProjectViewProjectNode" />
               <item name="JuegoFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="Builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JuegoFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JuegoFinal" type="462c0819:PsiDirectoryNode" />
               <item name="CampoBatalla" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JuegoFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JuegoFinal" type="462c0819:PsiDirectoryNode" />
-              <item name="Imagenes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JuegoFinal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JuegoFinal" type="462c0819:PsiDirectoryNode" />
-              <item name="Imagenes" type="462c0819:PsiDirectoryNode" />
-              <item name="Guerreros" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,11 +251,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Builder" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/AbstractFactory" />
       <recent name="$PROJECT_DIR$/Imagenes/Guerreros/Guerrero3" />
       <recent name="$PROJECT_DIR$/Imagenes/Orcos/Orco1" />
-      <recent name="$PROJECT_DIR$/Imagenes/Orcos/Ataque" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Imagenes/Guerreros/Guerrero3/Muerte" />
@@ -413,13 +398,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2460815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2460815" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32866043" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32866043" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32866043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -799,8 +783,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CampoBatalla/CampoBatallaMain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-780">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="-795">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -810,14 +794,14 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
-          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jugador.py">
+    <entry file="file://$PROJECT_DIR$/Builder/Jugador.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
