@@ -45,3 +45,9 @@ class Caracteristicas():
 
     def setSpritesMorirPersonaje3(self, morirpersonaje3):
         self.morirpersonaje3 = morirpersonaje3
+
+    def dibujar(self, ventana):
+        pass
+
+    def update(self, rectangulo):
+        pass

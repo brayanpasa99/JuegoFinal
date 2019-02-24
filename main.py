@@ -1,15 +1,11 @@
-from random import choice, randrange
-
 from Builder.CaracteristicasElfo import CaracteristicasElfo
 from Builder.CaracteristicasGuerrero import CaracteristicasGuerrero
 from Builder.CaracteristicasOrco import CaracteristicasOrco
 from Builder.Director import Director
 from CampoBatalla.CampoBatallaMain import CampoBatallaMain
-from Jugador import Jugador
 
 
 def main():
-
     inicia = CampoBatallaMain()
 
     print "Menu:"
@@ -49,7 +45,7 @@ def main():
         else:
             print "Ingreso una raza incorrecta"
 
-        print "Jugador 1 creado con la raza: "+razaJugador1
+        print "Jugador 1 creado con la raza: " + razaJugador1
 
         print "Selecciona la raza del jugador 2:"
         print "1. Elfos"
@@ -79,7 +75,7 @@ def main():
         else:
             print "Ingreso una raza incorrecta"
 
-        print "Jugador 2 creado con la raza: "+razaJugador2
+        print "Jugador 2 creado con la raza: " + razaJugador2
 
     inicia.main((jugador1, jugador2))
 

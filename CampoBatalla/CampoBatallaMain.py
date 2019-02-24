@@ -27,6 +27,7 @@ class CampoBatallaMain():
         image_Fondo = pygame.transform.scale(pygame.image.load('Imagenes/Fondos/'+FONDOS[random.randrange(5)]), (1000, 500))
 
         teclas = pygame.key.get_pressed()
+        dibuja = False
 
         while True:
 
@@ -47,14 +48,7 @@ class CampoBatallaMain():
                 if event.type == pygame.QUIT:
                     exit()
 
-            Elfo().Personaje1().dibujar(ventana)
-
-            Elfo().Personaje1().update()
-
-            Elfo().Personaje2().update()
-            Elfo().Personaje2().dibujar(ventana)
-            Elfo().Personaje3().update()
-            Elfo().Personaje3().dibujar(ventana)
+            jugadores[0].dibujar(ventana)
 
             pygame.display.flip()
 
