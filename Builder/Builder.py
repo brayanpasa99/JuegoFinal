@@ -1,4 +1,6 @@
 import abc
+from Builder.Product import Product
+
 
 class Builder():
 
@@ -6,4 +8,9 @@ class Builder():
         self.product = Product()
 
     @abc.abstractmethod
-    def 
+    def obtenerCastillo(self):
+        pass
+
+    @abc.abstractmethod
+    def obtenerSprites(self):
+        pass
