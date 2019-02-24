@@ -5,7 +5,8 @@ from AbstractFactory.Elfo import Elfo
 from AbstractFactory.Guerrero import Guerrero
 from AbstractFactory.Orco import Orco
 from CampoBatalla import Castillos
-from Builder.Jugador import Jugador
+from Jugador import Jugador
+from pygame.locals import *
 
 DIMENSIONES = (1000, 500)
 COLOR_TEXTO = (243, 255, 0)

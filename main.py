@@ -1,5 +1,7 @@
+from random import choice, randrange
+
 from CampoBatalla.CampoBatallaMain import CampoBatallaMain
-from Builder.Jugador import Jugador
+from Jugador import Jugador
 
 
 def main():
