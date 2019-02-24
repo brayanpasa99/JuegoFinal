@@ -1,3 +1,4 @@
+from AbstractFactory.CastilloGuerrero import CastilloGuerrero
 from AbstractFactory.Guerrero1 import Guerrero1
 from AbstractFactory.Guerrero2 import Guerrero2
 from AbstractFactory.Guerrero3 import Guerrero3
@@ -14,3 +15,6 @@ class Guerrero(Personajes):
 
     def Personaje3(self):
         return Guerrero3()
+
+    def Castillo(self):
+        return CastilloGuerrero()

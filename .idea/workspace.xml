@@ -2,9 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6a5689b-fcfc-428c-86eb-ea67f642a4cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Builder/CaracteristicasElfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/CaracteristicasElfo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builder/CaracteristicasGuerrero.py" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/CaracteristicasGuerrero.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builder/CaracteristicasOrco.py" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/CaracteristicasOrco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactory/CastilloAbstracto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactory/CastilloElfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactory/CastilloGuerrero.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AbstractFactory/CastilloOrco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/Iconos/Elfo/Elfo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/Iconos/Elfo/Elfo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/Iconos/Elfo/Elfo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/Iconos/Guerrero/Guerrero1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/Iconos/Guerrero/Guerrero2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/Iconos/Guerrero/Guerrero3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/Iconos/Orco/Orco1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/Iconos/Orco/Orco2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/Iconos/Orco/Orco3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/Elfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactory/Elfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/Elfo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactory/Elfo1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/Elfo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactory/Elfo2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/Guerrero.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactory/Guerrero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/Guerrero1.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactory/Guerrero1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/Guerrero2.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactory/Guerrero2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/Guerrero3.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactory/Guerrero3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/Orco.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactory/Orco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/Personajes.py" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactory/Personajes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CampoBatalla/CampoBatallaMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/CampoBatalla/CampoBatallaMain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CampoBatalla/Castillos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagenes/Castillos/CastilloBlanco.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Castillos/CastilloBlanco1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagenes/Castillos/CastilloRojo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Castillos/CastilloRojo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagenes/Castillos/CastilloVerde.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imagenes/Castillos/CastilloVerde1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonajesSprites.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonajesSprites.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,73 +42,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Jugador.py">
+        <entry file="file://$PROJECT_DIR$/CampoBatalla/CampoBatallaMain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="-390">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Builder/Director.py">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="435">
+              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Builder/Builder.py">
+        <entry file="file://$PROJECT_DIR$/AbstractFactory/CastilloGuerrero.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Builder/Product.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Builder/CaracteristicasOrco.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="9" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AbstractFactory/Personajes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Builder/CaracteristicasElfo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="270">
+              <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Builder/CaracteristicasGuerrero.py">
+        <entry file="file://$PROJECT_DIR$/Jugador.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="75">
+              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AbstractFactory/CastilloOrco.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AbstractFactory/Elfo1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+            <state relative-caret-position="91">
+              <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
@@ -99,10 +111,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AbstractFactory/ElfoAbstracto.py">
+        <entry file="file://$PROJECT_DIR$/AbstractFactory/Elfo2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="148">
+              <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AbstractFactory/Guerrero1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AbstractFactory/Guerrero2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AbstractFactory/Guerrero3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -140,16 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AbstractFactory/SpritesAtacarGuerrero2.py" />
-        <option value="$PROJECT_DIR$/AbstractFactory/SpritesAtacarGuerrero3.py" />
-        <option value="$PROJECT_DIR$/AbstractFactory/SpritesAtacarOrco2.py" />
-        <option value="$PROJECT_DIR$/AbstractFactory/SpritesAtacarOrco3.py" />
-        <option value="$PROJECT_DIR$/AbstractFactory/SpritesOrcoo.py" />
-        <option value="$PROJECT_DIR$/AbstractFactory/SpritesPersonajes.py" />
-        <option value="$PROJECT_DIR$/AbstractFactory/SpritesElfoo.py" />
-        <option value="$PROJECT_DIR$/AbstractFactory/Personajes.py" />
-        <option value="$PROJECT_DIR$/AbstractFactory/SpritesCaminarElfo1.py" />
-        <option value="$PROJECT_DIR$/AbstractFactory/SpritesMorirElfo1.py" />
         <option value="$PROJECT_DIR$/AbstractFactory/SpritesMorirElfo2.py" />
         <option value="$PROJECT_DIR$/AbstractFactory/SpritesCaminarElfo2.py" />
         <option value="$PROJECT_DIR$/AbstractFactory/SpritesMorirElfo3.py" />
@@ -166,24 +198,14 @@
         <option value="$PROJECT_DIR$/AbstractFactory/SpritesCaminarOrco2.py" />
         <option value="$PROJECT_DIR$/AbstractFactory/SpritesMorirOrco3.py" />
         <option value="$PROJECT_DIR$/AbstractFactory/SpritesCaminarOrco3.py" />
-        <option value="$PROJECT_DIR$/AbstractFactory/Elfo.py" />
-        <option value="$PROJECT_DIR$/AbstractFactory/Guerrero.py" />
-        <option value="$PROJECT_DIR$/AbstractFactory/Orco.py" />
         <option value="$PROJECT_DIR$/AbstractFactory/GuerreroAbstracto.py" />
         <option value="$PROJECT_DIR$/AbstractFactory/OrcoAbstracto.py" />
         <option value="$PROJECT_DIR$/AbstractFactory/prueba.py" />
-        <option value="$PROJECT_DIR$/AbstractFactory/Guerrero1.py" />
         <option value="$PROJECT_DIR$/AbstractFactory/Orco3.py" />
         <option value="$PROJECT_DIR$/AbstractFactory/Orco2.py" />
         <option value="$PROJECT_DIR$/AbstractFactory/Orco1.py" />
-        <option value="$PROJECT_DIR$/AbstractFactory/Guerrero2.py" />
-        <option value="$PROJECT_DIR$/AbstractFactory/Guerrero3.py" />
-        <option value="$PROJECT_DIR$/AbstractFactory/Elfo1.py" />
-        <option value="$PROJECT_DIR$/AbstractFactory/Elfo2.py" />
         <option value="$PROJECT_DIR$/AbstractFactory/ElfoAbstracto.py" />
         <option value="$PROJECT_DIR$/AbstractFactory/Elfo3.py" />
-        <option value="$PROJECT_DIR$/CampoBatalla/CampoBatallaMain.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/Jugador.py" />
         <option value="$PROJECT_DIR$/Builder/Director.py" />
         <option value="$PROJECT_DIR$/Builder/Product.py" />
@@ -191,14 +213,34 @@
         <option value="$PROJECT_DIR$/Builder/CaracteristicasOrco.py" />
         <option value="$PROJECT_DIR$/Builder/CaracteristicasElfo.py" />
         <option value="$PROJECT_DIR$/Builder/CaracteristicasGuerrero.py" />
+        <option value="$PROJECT_DIR$/AbstractFactory/Castillo1.py" />
+        <option value="$PROJECT_DIR$/AbstractFactory/Castillo2.py" />
+        <option value="$PROJECT_DIR$/AbstractFactory/Castillo3.py" />
+        <option value="$PROJECT_DIR$/AbstractFactory/CastilloAbstracto.py" />
+        <option value="$PROJECT_DIR$/AbstractFactory/Personajes.py" />
+        <option value="$PROJECT_DIR$/AbstractFactory/Castillo.py" />
+        <option value="$PROJECT_DIR$/AbstractFactory/Elfo.py" />
+        <option value="$PROJECT_DIR$/AbstractFactory/Guerrero.py" />
+        <option value="$PROJECT_DIR$/AbstractFactory/Orco.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/PersonajesSprites.py" />
+        <option value="$PROJECT_DIR$/AbstractFactory/CastilloElfo.py" />
+        <option value="$PROJECT_DIR$/AbstractFactory/CastilloGuerrero.py" />
+        <option value="$PROJECT_DIR$/AbstractFactory/CastilloOrco.py" />
+        <option value="$PROJECT_DIR$/AbstractFactory/Elfo1.py" />
+        <option value="$PROJECT_DIR$/AbstractFactory/Elfo2.py" />
+        <option value="$PROJECT_DIR$/AbstractFactory/Guerrero1.py" />
+        <option value="$PROJECT_DIR$/AbstractFactory/Guerrero2.py" />
+        <option value="$PROJECT_DIR$/AbstractFactory/Guerrero3.py" />
+        <option value="$PROJECT_DIR$/CampoBatalla/CampoBatallaMain.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="77" />
     <option name="y" value="47" />
-    <option name="width" value="1279" />
-    <option name="height" value="701" />
+    <option name="width" value="1161" />
+    <option name="height" value="641" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -227,6 +269,23 @@
               <item name="JuegoFinal" type="462c0819:PsiDirectoryNode" />
               <item name="CampoBatalla" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JuegoFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JuegoFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="Imagenes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JuegoFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JuegoFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="Imagenes" type="462c0819:PsiDirectoryNode" />
+              <item name="Castillos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JuegoFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JuegoFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="Imagenes" type="462c0819:PsiDirectoryNode" />
+              <item name="Elfos" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -239,19 +298,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Imagenes/Castillos" />
+      <recent name="$PROJECT_DIR$/Imagenes/Iconos/Orco" />
+      <recent name="$PROJECT_DIR$/Imagenes/Iconos/Guerrero" />
+      <recent name="$PROJECT_DIR$/Imagenes/Iconos/Elfo" />
+      <recent name="$PROJECT_DIR$/Imagenes/Guerreros/Guerrero3/Muerte" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Builder" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/AbstractFactory" />
       <recent name="$PROJECT_DIR$/Imagenes/Guerreros/Guerrero3" />
       <recent name="$PROJECT_DIR$/Imagenes/Orcos/Orco1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Imagenes/Guerreros/Guerrero3/Muerte" />
-      <recent name="$PROJECT_DIR$/Imagenes/Guerreros/Guerrero3/Caminar" />
-      <recent name="$PROJECT_DIR$/Imagenes/Guerreros/Guerrero3/Ataque" />
-      <recent name="$PROJECT_DIR$/Imagenes/Guerreros/Guerrero2/Muerte" />
-      <recent name="$PROJECT_DIR$/Imagenes/Guerreros/Guerrero2/Caminar" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -267,6 +326,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main">
+    <configuration name="CampoBatallaMain" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="JuegoFinal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CampoBatalla" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CampoBatalla/CampoBatallaMain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Orco3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="JuegoFinal" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -280,27 +360,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AbstractFactory/Orco3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="OrcoConcreto1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="JuegoFinal" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PersonajesC" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PersonajesC/OrcoConcreto1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -375,10 +434,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.CampoBatallaMain" />
         <item itemvalue="Python.prueba" />
         <item itemvalue="Python.Orco3" />
         <item itemvalue="Python.SpritesAtacarElfo1" />
-        <item itemvalue="Python.OrcoConcreto1" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +452,7 @@
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32866043" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32866043" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32866043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -407,27 +466,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PersonajesC/GuerreroConcreto1.py" />
-    <entry file="file://$PROJECT_DIR$/PersonajesC/GuerreroConcreto2.py" />
-    <entry file="file://$PROJECT_DIR$/PersonajesC/GuerreroConcreto3.py" />
-    <entry file="file://$PROJECT_DIR$/PersonajesC/OrcoConcreto1.py" />
-    <entry file="file://$PROJECT_DIR$/PersonajesC/OrcoConcreto2.py" />
-    <entry file="file://$PROJECT_DIR$/PersonajesC/OrcoConcreto3.py" />
-    <entry file="file://$PROJECT_DIR$/AbstractFactory/SpritesCaminarElfo1.py" />
-    <entry file="file://$PROJECT_DIR$/AbstractFactory/SpritesMorirElfo1.py" />
-    <entry file="file://$PROJECT_DIR$/AbstractFactory/SpritesMorirElfo2.py" />
     <entry file="file://$PROJECT_DIR$/AbstractFactory/SpritesCaminarElfo2.py" />
     <entry file="file://$PROJECT_DIR$/AbstractFactory/SpritesMorirElfo3.py" />
     <entry file="file://$PROJECT_DIR$/AbstractFactory/SpritesCaminarElfo3.py" />
@@ -443,26 +482,6 @@
     <entry file="file://$PROJECT_DIR$/AbstractFactory/SpritesCaminarOrco2.py" />
     <entry file="file://$PROJECT_DIR$/AbstractFactory/SpritesMorirOrco3.py" />
     <entry file="file://$PROJECT_DIR$/AbstractFactory/SpritesCaminarOrco3.py" />
-    <entry file="file://$PROJECT_DIR$/AbstractFactory/Orco.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractFactory/Guerrero.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AbstractFactory/GuerreroAbstracto.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -470,23 +489,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractFactory/OrcoAbstracto.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AbstractFactory/prueba.py" />
-    <entry file="file://$PROJECT_DIR$/AbstractFactory/Guerrero1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AbstractFactory/Orco3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -517,54 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractFactory/Guerrero2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractFactory/Guerrero3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractFactory/Elfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractFactory/Elfo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CampoBatalla/CampoBatallaMain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PersonajesSprites.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AbstractFactory/Elfo3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -575,44 +530,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jugador.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Builder/Director.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractFactory/Elfo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractFactory/ElfoAbstracto.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -623,24 +544,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractFactory/Personajes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Builder/Builder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Builder/CaracteristicasOrco.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Builder/CaracteristicasGuerrero.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -651,10 +565,192 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Builder/CaracteristicasGuerrero.py">
+    <entry file="file://$PROJECT_DIR$/Builder/Builder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Imagenes/Elfos/Elfo1/Ataque/Ataque1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory/Personajes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory/Castillo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory/ElfoAbstracto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory/Guerrero.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory/OrcoAbstracto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory/Orco.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampoBatalla/Castillos.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory/Elfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Imagenes/Castillos/CastilloBlanco1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersonajesSprites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory/CastilloAbstracto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory/CastilloElfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory/CastilloGuerrero.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory/CastilloOrco.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory/Elfo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory/Elfo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory/Guerrero1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory/Guerrero2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory/Guerrero3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CampoBatalla/CampoBatallaMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jugador.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>

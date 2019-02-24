@@ -15,3 +15,7 @@ class Personajes():
     @abc.abstractmethod
     def Personaje3(self):
         pass
+
+    @abc.abstractmethod
+    def Castillo(self):
+        pass

@@ -36,6 +36,8 @@ def main():
 
         print "Jugador 2 creado con la raza: "+razaJugador2
 
+    inicia.main()
+
 
 if __name__ == "__main__":
     main()

@@ -1,3 +1,4 @@
+from AbstractFactory.CastilloOrco import CastilloOrco
 from AbstractFactory.Orco1 import Orco1
 from AbstractFactory.Orco2 import Orco2
 from AbstractFactory.Orco3 import Orco3
@@ -14,3 +15,6 @@ class Orco(Personajes):
 
     def Personaje3(self):
         return Orco3()
+
+    def Castillo(self):
+        return CastilloOrco()

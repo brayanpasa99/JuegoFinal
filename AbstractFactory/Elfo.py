@@ -1,3 +1,4 @@
+from AbstractFactory.CastilloElfo import CastilloElfo
 from AbstractFactory.Elfo1 import Elfo1
 from AbstractFactory.Elfo2 import Elfo2
 from AbstractFactory.Elfo3 import Elfo3
@@ -14,3 +15,6 @@ class Elfo(Personajes):
 
     def Personaje3(self):
         return Elfo3()
+
+    def Castillo(self):
+        return CastilloElfo()
