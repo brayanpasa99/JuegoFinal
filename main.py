@@ -32,7 +32,6 @@ def main():
             director = Director()
             director.setBuilder(concrete_builder)
             jugador1 = director.getCaracteristicas()
-            jugador1.castillo[0].image
 
 
         elif razaJugador1 == 'Elfos':

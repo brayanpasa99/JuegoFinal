@@ -20,9 +20,9 @@ class CampoBatallaMain():
         ventana = pygame.display.set_mode(DIMENSIONES)
         pygame.display.set_caption("Campo de Batalla")
 
-        image_CastilloAmigo = Elfo().Castillo().spritesCastillo()[0].image
-        image_CastilloEnemigo = (Orco().Castillo().spritesCastillo()[0].image)
-        image_CastilloEnemigo = pygame.transform.flip(image_CastilloEnemigo, True, False)
+        image_CastilloAmigo = jugadores[0].castillo[2].image
+        image_CastilloAmigo = pygame.transform.flip(image_CastilloAmigo, True, False)
+        image_CastilloEnemigo = jugadores[1].castillo[2].image
 
         image_Fondo = pygame.transform.scale(pygame.image.load('Imagenes/Fondos/'+FONDOS[random.randrange(5)]), (1000, 500))
 
@@ -31,16 +31,16 @@ class CampoBatallaMain():
         while True:
 
             ventana.blit(image_Fondo, (0, 0))
-            ventana.blit(image_CastilloAmigo, (800, 40))
-            ventana.blit(image_CastilloEnemigo, (-100, 40))
+            ventana.blit(image_CastilloAmigo, (-100, 40))
+            ventana.blit(image_CastilloEnemigo, (800, 40))
             x1 = 200
             for i in range(0, 3):
-                ventana.blit(pygame.transform.scale((Elfo().Castillo().spritesIconos()[i].image), (50, 50)), (x1, 50))
+                ventana.blit(pygame.transform.scale((jugadores[0].iconos[i].image), (50, 50)), (x1, 50))
                 x1+=80
 
             x2 = 610
             for i in range(0,3):
-                ventana.blit(pygame.transform.scale((Orco().Castillo().spritesIconos()[i].image), (50, 50)), (x2, 50))
+                ventana.blit(pygame.transform.scale((jugadores[1].iconos[i].image), (50, 50)), (x2, 50))
                 x2+=80
 
             for event in pygame.event.get():
