@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6a5689b-fcfc-428c-86eb-ea67f642a4cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Builder/CaracteristicasElfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/CaracteristicasGuerrero.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/CaracteristicasOrco.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builder/Builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/Builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builder/Product.py" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/Product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/CaracteristicasElfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/CaracteristicasElfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/CaracteristicasGuerrero.py" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/CaracteristicasGuerrero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/CaracteristicasOrco.py" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/CaracteristicasOrco.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,10 +52,14 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Builder/CaracteristicasOrco.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="9" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AbstractFactory/Personajes.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -70,12 +70,20 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Builder/CaracteristicasElfo.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Builder/CaracteristicasGuerrero.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -178,11 +186,11 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/Jugador.py" />
         <option value="$PROJECT_DIR$/Builder/Director.py" />
+        <option value="$PROJECT_DIR$/Builder/Product.py" />
+        <option value="$PROJECT_DIR$/Builder/Builder.py" />
         <option value="$PROJECT_DIR$/Builder/CaracteristicasOrco.py" />
         <option value="$PROJECT_DIR$/Builder/CaracteristicasElfo.py" />
         <option value="$PROJECT_DIR$/Builder/CaracteristicasGuerrero.py" />
-        <option value="$PROJECT_DIR$/Builder/Product.py" />
-        <option value="$PROJECT_DIR$/Builder/Builder.py" />
       </list>
     </option>
   </component>
@@ -379,6 +387,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2460815" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -607,16 +616,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Builder/CaracteristicasElfo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Builder/CaracteristicasGuerrero.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Builder/Product.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbstractFactory/Personajes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -628,12 +638,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Builder/CaracteristicasOrco.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbstractFactory/Personajes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state>
+          <caret selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Builder/CaracteristicasElfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Builder/CaracteristicasGuerrero.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
