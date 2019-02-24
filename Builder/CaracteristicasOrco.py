@@ -1,7 +1,7 @@
-from Builder.Builder import Builder
+from Builder.Constructor import Constructor
 
 
-class CaracteristicasOrco(Builder):
+class CaracteristicasOrco(Constructor):
 
     def obtenerCastillo(self):
         pass

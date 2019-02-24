@@ -15,7 +15,7 @@ class CastilloGuerrero(CastilloAbstracto):
     def spritesIconos(self):
         Iconos = []
         for i in range(0, 3):
-            imagen = 'Imagenes/Iconos/Orco/Orco' + str(i + 1) + '.png'
+            imagen = 'Imagenes/Iconos/Guerrero/Guerrero' + str(i + 1) + '.png'
             Iconos.append(PersonajesSprites(imagen, (50, 50)))
 
         return Iconos

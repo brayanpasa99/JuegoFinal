@@ -1,7 +1,7 @@
-from Builder.Builder import Builder
+from Builder.Constructor import Constructor
 
 
-class CaracteristicasGuerrero(Builder):
+class CaracteristicasGuerrero(Constructor):
 
     def obtenerCastillo(self):
         pass

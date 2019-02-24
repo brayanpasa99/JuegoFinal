@@ -1,10 +1,17 @@
-from Builder.Builder import Builder
+from AbstractFactory.Elfo import Elfo
+from Builder.Constructor import Constructor
 
 
-class CaracteristicasElfo(Builder):
+class CaracteristicasElfo(Constructor):
 
     def obtenerCastillo(self):
-        pass
+        return Elfo().Castillo()
 
-    def obtenerSprites(self):
-        pass
+    def obtenerPersonaje1(self):
+        return Elfo().Personaje1()
+
+    def obtenerPersonaje2(self):
+        return Elfo().Personaje2()
+
+    def obtenerPersonaje3(self):
+        return Elfo().Personaje3()

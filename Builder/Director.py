@@ -1,10 +1,20 @@
+from Builder.Interface import Interface
+
+
 class Director():
 
-    def __init__(self):
-        self._builder = None
+    __builder = None
 
-    def construct(self, builder):
-        self._builder = builder
+    def setBuilder(self, builder):
+        self.__builder = builder
 
-    def SINTERMINAR:
+    def getInterface(self):
+
+        interface = Interface()
+        castillo = self.__builder.obtenerCastillo()
+        sprites = self.__builder.obtenerSprites()
+        interface.setCastillo(castillo)
+        interface.setSprites(sprites)
+
+        return interface
 
