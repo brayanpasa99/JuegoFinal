@@ -8,7 +8,7 @@ class Orco1(OrcoAbstracto):
         SpritesAtacar = []
         for i in range(0, 7):
             imagen = 'Imagenes/Orcos/Orco1/Ataque/Ataque' + str(i + 1) + '.png'
-            SpritesAtacar.append(PersonajesSprites(imagen))
+            SpritesAtacar.append(PersonajesSprites(imagen, (50, 50)))
 
         return SpritesAtacar
 
@@ -16,7 +16,7 @@ class Orco1(OrcoAbstracto):
         SpritesCaminar = []
         for i in range(0, 7):
             imagen = 'Imagenes/Orcos/Orco1/Caminar/Caminar' + str(i + 1) + '.png'
-            SpritesCaminar.append(PersonajesSprites(imagen))
+            SpritesCaminar.append(PersonajesSprites(imagen, (50, 50)))
 
         return SpritesCaminar
 
@@ -24,7 +24,7 @@ class Orco1(OrcoAbstracto):
         SpritesMuerte = []
         for i in range(0, 7):
             imagen = 'Imagenes/Orcos/Orco1/Muerte/Muerte' + str(i + 1) + '.png'
-            SpritesMuerte.append(PersonajesSprites(imagen))
+            SpritesMuerte.append(PersonajesSprites(imagen, (50, 50)))
 
         return SpritesMuerte
 

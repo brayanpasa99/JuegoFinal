@@ -13,12 +13,12 @@ FONDOS = ['Fondo1.png', 'Fondo2.png', 'Fondo3.jpg', 'Fondo4.jpg', 'Fondo5.png']
 
 class CampoBatallaMain():
 
-    def main(self):
+    def main(self, jugadores):
 
         pygame.init()
 
         ventana = pygame.display.set_mode(DIMENSIONES)
-        pygame.display.set_caption("Castillos")
+        pygame.display.set_caption("Campo de Batalla")
 
         image_CastilloAmigo = Elfo().Castillo().spritesCastillo()[0].image
         image_CastilloEnemigo = (Orco().Castillo().spritesCastillo()[0].image)

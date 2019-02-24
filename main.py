@@ -31,19 +31,21 @@ def main():
             concrete_builder = CaracteristicasOrco()
             director = Director()
             director.setBuilder(concrete_builder)
-            product_final = director.getInterface()
+            jugador1 = director.getCaracteristicas()
+            jugador1.castillo[0].image
+
 
         elif razaJugador1 == 'Elfos':
             concrete_builder = CaracteristicasElfo()
             director = Director()
             director.setBuilder(concrete_builder)
-            director.getInterface()
+            jugador1 = director.getCaracteristicas()
 
         elif razaJugador1 == 'Guerreros':
             concrete_builder = CaracteristicasGuerrero()
             director = Director()
             director.setBuilder(concrete_builder)
-            director.getInterface()
+            jugador1 = director.getCaracteristicas()
 
         else:
             print "Ingreso una raza incorrecta"
@@ -61,26 +63,26 @@ def main():
             concrete_builder = CaracteristicasOrco()
             director = Director()
             director.setBuilder(concrete_builder)
-            director.getInterface()
+            jugador2 = director.getCaracteristicas()
 
         elif razaJugador2 == 'Elfos':
             concrete_builder = CaracteristicasElfo()
             director = Director()
             director.setBuilder(concrete_builder)
-            director.getInterface()
+            jugador2 = director.getCaracteristicas()
 
         elif razaJugador2 == 'Guerreros':
             concrete_builder = CaracteristicasGuerrero()
             director = Director()
             director.setBuilder(concrete_builder)
-            director.getInterface()
+            jugador2 = director.getCaracteristicas()
 
         else:
             print "Ingreso una raza incorrecta"
 
         print "Jugador 2 creado con la raza: "+razaJugador2
 
-    inicia.main()
+    inicia.main((jugador1, jugador2))
 
 
 if __name__ == "__main__":

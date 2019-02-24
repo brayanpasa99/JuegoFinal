@@ -17,7 +17,7 @@ class Elfo2(ElfoAbstracto):
     def Caminar(self):
         SpritesCaminar = []
         for i in range(0, 3):
-            imagen = '../Imagenes/Elfos/Elfo2/Caminar/Caminar' + str(i + 1) + '.png'
+            imagen = 'Imagenes/Elfos/Elfo2/Caminar/Caminar' + str(i + 1) + '.png'
             SpritesCaminar.append(PersonajesSprites(imagen, (50, 50)))
 
         return SpritesCaminar
@@ -25,7 +25,7 @@ class Elfo2(ElfoAbstracto):
     def Muerte(self):
         SpritesMuerte = []
         for i in range(0, 5):
-            imagen = '../Imagenes/Elfos/Elfo2/Muerte/Muerte' + str(i + 1) + '.png'
+            imagen = 'Imagenes/Elfos/Elfo2/Muerte/Muerte' + str(i + 1) + '.png'
             SpritesMuerte.append(PersonajesSprites(imagen, (50, 50)))
 
         return SpritesMuerte

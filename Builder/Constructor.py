@@ -4,17 +4,45 @@ import abc
 class Constructor():
 
     @abc.abstractmethod
-    def obtenerCastillo(self):
+    def obtenerSpritesCastillo(self):
         pass
 
     @abc.abstractmethod
-    def obtenerPersonaje1(self):
+    def obtenerIconos(self):
         pass
 
     @abc.abstractmethod
-    def obtenerPersonaje2(self):
+    def obtenerSpritesAtacarPersonaje1(self):
         pass
 
     @abc.abstractmethod
-    def obtenerPersonaje3(self):
+    def obtenerSpritesAtacarPersonaje2(self):
+        pass
+
+    @abc.abstractmethod
+    def obtenerSpritesAtacarPersonaje3(self):
+        pass
+
+    @abc.abstractmethod
+    def obtenerSpritesCaminarPersonaje1(self):
+        pass
+
+    @abc.abstractmethod
+    def obtenerSpritesCaminarPersonaje2(self):
+        pass
+
+    @abc.abstractmethod
+    def obtenerSpritesCaminarPersonaje3(self):
+        pass
+
+    @abc.abstractmethod
+    def obtenerSpritesMorirPersonaje1(self):
+        pass
+
+    @abc.abstractmethod
+    def obtenerSpritesMorirPersonaje2(self):
+        pass
+
+    @abc.abstractmethod
+    def obtenerSpritesMorirPersonaje3(self):
         pass
