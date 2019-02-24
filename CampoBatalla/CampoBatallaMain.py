@@ -1,9 +1,11 @@
 import pygame
 import random
+
+from AbstractFactory.Elfo import Elfo
+from AbstractFactory.Guerrero import Guerrero
+from AbstractFactory.Orco import Orco
 from CampoBatalla import Castillos
 from Jugador import Jugador
-from PersonajesC import OrcoConcreto1, ElfoConcreto1, GuerreroConcreto1, OrcoConcreto2, OrcoConcreto3, ElfoConcreto2, \
-    ElfoConcreto3, GuerreroConcreto2, GuerreroConcreto3
 from pygame.locals import *
 
 DIMENSIONES = (1000, 500)
@@ -53,8 +55,6 @@ class CampoBatallaMain():
                 if event.type == pygame.QUIT:
                     exit()
 
-            OrcoConcreto1.OrcoConcreto1().update(ventana, self._avatares[0])
-
             pygame.display.flip()
 
     def creaJugador(self, raza, vidaCastillo, cantOro):
@@ -64,18 +64,18 @@ class CampoBatallaMain():
     def entregaAvatar(self):
         for i in range(0, len(self._jugadores)):
             if self._jugadores[i].escogerUnidad() == 'Orco':
-                self._avatares.append(OrcoConcreto1.OrcoConcreto1().SpritesAtacar()[0].image)
-                self._avatares.append(OrcoConcreto2.OrcoConcreto2().SpritesAtacar()[0].image)
-                self._avatares.append(OrcoConcreto3.OrcoConcreto3().SpritesAtacar()[0].image)
+                self._avatares.append(Orco().Personaje1().Atacar()[0].image)
+                self._avatares.append(Orco().Personaje2().Atacar()[0].image)
+                self._avatares.append(Orco().Personaje3().Atacar()[0].image)
 
             elif self._jugadores[i].escogerUnidad() == 'Elfo':
-                self._avatares.append(ElfoConcreto1.ElfoConcreto1().SpritesAtacar()[0].image)
-                self._avatares.append(ElfoConcreto2.ElfoConcreto2().SpritesAtacar()[0].image)
-                self._avatares.append(ElfoConcreto3.ElfoConcreto3().SpritesAtacar()[0].image)
+                self._avatares.append(Elfo().Personaje1().Atacar()[0].image)
+                self._avatares.append(Elfo().Personaje2().Atacar()[0].image)
+                self._avatares.append(Elfo().Personaje3().Atacar()[0].image)
 
             elif self._jugadores[i].escogerUnidad() == 'Guerrero':
-                self._avatares.append(GuerreroConcreto1.GuerreroConcreto1().SpritesAtacar()[0].image)
-                self._avatares.append(GuerreroConcreto2.GuerreroConcreto2().SpritesAtacar()[0].image)
-                self._avatares.append(GuerreroConcreto3.GuerreroConcreto3().SpritesAtacar()[0].image)
+                self._avatares.append(Guerrero().Personaje1().Atacar()[0].image)
+                self._avatares.append(Guerrero().Personaje2().Atacar()[0].image)
+                self._avatares.append(Guerrero().Personaje3().Atacar()[0].image)
 
 
