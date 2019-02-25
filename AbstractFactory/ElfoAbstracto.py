@@ -1,0 +1,25 @@
+import abc
+
+class ElfoAbstracto():
+
+    __metaclass__ = abc.ABCMeta
+
+    @abc.abstractmethod
+    def Atacar(self):
+        pass
+
+    @abc.abstractmethod
+    def Caminar(self):
+        pass
+
+    @abc.abstractmethod
+    def Muerte(self):
+        pass
+
+    @abc.abstractmethod
+    def dibujar(self, ventana):
+        pass
+
+    @abc.abstractmethod
+    def update(self):
+        pass
