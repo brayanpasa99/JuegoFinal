@@ -23,20 +23,20 @@ def main():
 
         razaJugador1 = raw_input()
 
-        if razaJugador1 == 'Orcos':
+        if razaJugador1 == '2':
             concrete_builder = CaracteristicasOrco()
             director = Director()
             director.setBuilder(concrete_builder)
             jugador1 = director.getCaracteristicas()
 
 
-        elif razaJugador1 == 'Elfos':
+        elif razaJugador1 == '1':
             concrete_builder = CaracteristicasElfo()
             director = Director()
             director.setBuilder(concrete_builder)
             jugador1 = director.getCaracteristicas()
 
-        elif razaJugador1 == 'Guerreros':
+        elif razaJugador1 == '3':
             concrete_builder = CaracteristicasGuerrero()
             director = Director()
             director.setBuilder(concrete_builder)
@@ -54,19 +54,19 @@ def main():
 
         razaJugador2 = raw_input()
 
-        if razaJugador2 == 'Orcos':
+        if razaJugador2 == '2':
             concrete_builder = CaracteristicasOrco()
             director = Director()
             director.setBuilder(concrete_builder)
             jugador2 = director.getCaracteristicas()
 
-        elif razaJugador2 == 'Elfos':
+        elif razaJugador2 == '1':
             concrete_builder = CaracteristicasElfo()
             director = Director()
             director.setBuilder(concrete_builder)
             jugador2 = director.getCaracteristicas()
 
-        elif razaJugador2 == 'Guerreros':
+        elif razaJugador2 == '3':
             concrete_builder = CaracteristicasGuerrero()
             director = Director()
             director.setBuilder(concrete_builder)
