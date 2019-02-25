@@ -1,9 +1,6 @@
 import pygame
 import random
 
-from AbstractFactory.Elfo import Elfo
-from AbstractFactory.Guerrero import Guerrero
-from AbstractFactory.Orco import Orco
 from Jugador import Jugador
 from pygame.locals import *
 
@@ -20,9 +17,9 @@ class CampoBatallaMain():
         ventana = pygame.display.set_mode(DIMENSIONES)
         pygame.display.set_caption("Campo de Batalla")
 
-        image_CastilloAmigo = jugadores[0].castillo[2].image
+        image_CastilloAmigo = jugadores[0].Personaje1.castillo[0].image
         image_CastilloAmigo = pygame.transform.flip(image_CastilloAmigo, True, False)
-        image_CastilloEnemigo = jugadores[1].castillo[2].image
+        image_CastilloEnemigo = jugadores[1].Personaje1.castillo[0].image
 
         image_Fondo = pygame.transform.scale(pygame.image.load('Imagenes/Fondos/'+FONDOS[random.randrange(5)]), (1000, 500))
 
@@ -35,13 +32,15 @@ class CampoBatallaMain():
             ventana.blit(image_CastilloEnemigo, (800, 40))
             x1 = 200
             for i in range(0, 3):
-                ventana.blit(pygame.transform.scale((jugadores[0].iconos[i].image), (50, 50)), (x1, 50))
-                x1+=80
+                pass
+#                ventana.blit(pygame.transform.scale((jugadores[0].iconos[i].image), (50, 50)), (x1, 50))
+#               x1+=80
 
             x2 = 610
             for i in range(0,3):
-                ventana.blit(pygame.transform.scale((jugadores[1].iconos[i].image), (50, 50)), (x2, 50))
-                x2+=80
+                pass
+#                ventana.blit(pygame.transform.scale((jugadores[1].iconos[i].image), (50, 50)), (x2, 50))
+#                x2+=80
 
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
