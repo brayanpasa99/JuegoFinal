@@ -1,6 +1,6 @@
 from Builder.CaracteristicasElfo import CaracteristicasElfo
 from Builder.CaracteristicasGuerrero import CaracteristicasGuerrero
-from Builder.CaracteristicasOrco import CaracteristicasOrco
+from Builder.CaracteristicasOrco1 import CaracteristicasOrco
 from Builder.Director import Director
 from CampoBatalla.CampoBatallaMain import CampoBatallaMain
 
