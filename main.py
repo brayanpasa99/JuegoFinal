@@ -101,7 +101,7 @@ def main():
 
         print "Jugador 2 creado con la raza: " + razaJugador2
 
-        CampoBatallaMain().main((jugador1, jugador2))
+        inicia.main((jugador1, jugador2))
 
 
 if __name__ == "__main__":
